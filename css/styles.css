@@ -5,12 +5,19 @@
 }
 
 #floatimg {
+    display: flex;
+    justify-content: flex-start;
     position: fixed;
     margin-top: -80px;
     margin-left: -75px;
     float: left;
     width: 200px;
     height: 200px;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
 }
 
 header {
@@ -30,6 +37,7 @@ ul {
 }
 
 li {
+    
     margin: 5px;
 }
 
