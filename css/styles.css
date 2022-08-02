@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#floatimg {
+    position: fixed;
+    margin-top: -80px;
+    margin-left: -75px;
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+header {
+    background-color: #aa7d62f1;
+    padding: 23px;
+}
+
+ul {
+   
+    margin-left: 75%;
+    max-width: 60%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+
+li {
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
