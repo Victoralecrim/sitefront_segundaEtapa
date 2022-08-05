@@ -16,8 +16,11 @@ function showPasswordAndValidateForm() {
     }
 
     //Verificando o campo de email
+    if (inputemail.value === "" && fieldPassword.value == "") {
+        alert("Campo de email e senha vazio !");
+    }
 
-    if (inputemail.value == "") {
+    else if (inputemail.value === "") {
         alert("Campo de email vazio !");
         //Deixa o input com foco ao clicar
         email.focus();
@@ -25,7 +28,7 @@ function showPasswordAndValidateForm() {
 
     //Verificando o campo de senha
 
-    if (fieldPassword.value == "") {
+    else if (fieldPassword.value == "") {
         alert("Campo de senha vazio, por favor informe uma senha !");
         fieldPassword.focus();
     }

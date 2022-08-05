@@ -90,12 +90,12 @@
       <section class="conteudo-form">
         <form>
           <section class="inputs-container">
-            <input type="email" placeholder="example@gmail.com">
+            <input type="email" id="email" placeholder="example@gmail.com">
 
             <div class="password-container">
               <input type="password" id="field-password" class="field-password" placeholder="*******">
-              <i class="fas fa-eye" id="eye" onclick="showPassword()"></i>
-              <i class="fas fa-eye-slash" id="eye-slash" onclick="showPassword()"></i>
+              <i class="fas fa-eye" id="eye" onclick="showPasswordAndValidateForm()"></i>
+              <i class="fas fa-eye-slash" id="eye-slash" onclick="showPasswordAndValidateForm()"></i>
             </div>
           </section>
 
@@ -108,7 +108,7 @@
             <a href="#">Esqueceu sua senha?</a>
           </section>
 
-          <button id="btn-login">Login</button>
+          <button type="button" id="btn-login" onclick="showPasswordAndValidateForm()">Login</button>
 
           <section class="links-container">
             <span>Ou entre com:</span>
@@ -201,6 +201,7 @@
           </div>
         </div>
       </footer>
+      <script src="js/loginform.js"></script>
 </body>
 
 </html>
