@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,4fr));
+  grid-auto-rows: repeat(3, 400px);
+  gap: 2.3vw;
+  
+}
+
+.FlexGrid-item {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    place-self: center;
+    place-content: center;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+}
+
+.FlexGrid-item p{
+    color: white;
+    text-align: center;
+    place-content: center;
+    place-items: center;
+}
+
+
