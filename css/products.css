@@ -6,9 +6,9 @@
 
 .grid-items {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(300px,4fr));
-  grid-auto-rows: repeat(3, 400px);
-  gap: 2.3vw;
+  grid-template-columns: repeat(auto-fit,minmax(400px,9fr));
+  grid-template-rows: repeat(9, 3fr);
+  gap: 2vw 3vw;
   
 }
 
@@ -17,10 +17,8 @@
     flex-direction: column;
     background-color: red;
     place-self: center;
-    place-content: center;
+    place-content: stretch,center;
     flex-wrap: nowrap;
-    align-content: stretch;
-    justify-content: center;
     align-items: center;
 }
 
