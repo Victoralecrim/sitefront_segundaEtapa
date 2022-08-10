@@ -13,8 +13,8 @@ body {
 #floatimg {
   display: flex;
   justify-content: flex-start;
-  position: absolute;
-  top: -60px;
+  position: fixed;
+  margin-top: -93px;
   margin-left: -75px;
   float: left;
   width: 200px;
@@ -38,8 +38,6 @@ li {
 
 
 /* Barra de navegação */
-
-
 header,
 .navbar {
   background-color: #353D41;
