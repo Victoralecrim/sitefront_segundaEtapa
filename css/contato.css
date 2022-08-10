@@ -81,35 +81,32 @@ body {
 
 .form-control.success input {
     border-color: #2ecc71;
-  }
-  
-  .form-control.error input {
+}
+
+.form-control.error input {
     border-color: #e74c3c;
-  }
-  
-  .form-control.success i.fa-check-circle {
+}
+
+.form-control.success i.fa-check-circle {
     color: #2ecc71;
     visibility: visible;
-  }
-  
-  .form-control.error i.fa-exclamation-circle {
-    color: #e74c3c;
-    visibility: visible;
-  }
-  
-  .form-control.error small {
-    visibility: visible;
-    color: #e74c3c;
-  }
+}
 
-  /* FOOTER */
+.form-control.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form-control.error small {
+    visibility: visible;
+    color: #e74c3c;
+}
+
+/* RODAPÉ */
 
 #footer {
-    position: absolute;
     background-color: black;
     padding: 3em 2em;
-    margin-bottom: -700px;
-    bottom: 0;
   }
   
   #footer-top {
@@ -197,4 +194,3 @@ body {
       padding-left: 2em;
     }
   }
-
