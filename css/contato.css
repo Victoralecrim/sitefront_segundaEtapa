@@ -121,6 +121,12 @@ body {
   color: #fff;
 }
 
+.text-social {
+  color: aliceblue;
+  text-align: center;
+  margin-left: 75px;
+}
+
 #social-icons {
   text-align: right;
 }

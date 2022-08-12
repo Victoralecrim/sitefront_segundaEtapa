@@ -341,6 +341,12 @@ header,
   text-align: right;
 }
 
+.text-social {
+  color: aliceblue;
+  text-align: center;
+  margin-left: 75px;
+}
+
 #social-icons i {
   margin-right: 1em;
   font-size: 1.5em;

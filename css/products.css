@@ -35,7 +35,7 @@ h1 {
   width: 80%;
   margin: 0 auto;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(19, 3fr);
+  grid-template-rows: repeat(9, 3fr);
   gap: 2vw 2vw;
 
 }
@@ -76,8 +76,8 @@ h1 {
 
 #footer {
   position: relative;
-  bottom: -10%;
-  margin-top: 999px;
+  bottom: -5%;
+  margin-top: 200px;
   background-color: black;
   padding: 3em 2em;
 }
@@ -93,6 +93,12 @@ h1 {
 
 #social-icons {
   text-align: right;
+}
+
+.text-social {
+  color: aliceblue;
+  text-align: center;
+  margin-left: 75px;
 }
 
 #social-icons i {

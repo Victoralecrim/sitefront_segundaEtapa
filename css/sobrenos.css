@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Gerais*/
+
+body {
+    background-image: url("../img/sobre\ nos\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+#floatimg {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top: -60px;
+    margin-left: -75px;
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+/* Barra de navegação */
+
+
+header,
+.navbar {
+    background-color: #353D41;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 75px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    background-color: rgb(81, 209, 30);
+}
+
+#navbar-links a {
+    color: #FFF;
+
+}
+
+#navbar-links a:hover {
+    background-color: rgb(179, 31, 31);
+    border-radius: 10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .6rem;
+}
+
+.nav-item.active {
+    border-bottom: 3px solid #FFF;
+}
+
+/* Finalização da barra de navegação */
+
+
+/*Texto de fundo*/
+
+section{
+    text-align: center;
+}
+
+section  p{
+    margin-top: 100px;
+    color: white;
+    padding: 5px 5px 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* FOOTER */
+
+#footer {
+    position: relative;
+    bottom: 0;
+    margin-top: 900px;
+    background-color: black;
+    padding: 3em 2em;
+}
+
+#footer-top {
+    margin-bottom: 2em;
+}
+
+#footer-top,
+#footer-top i {
+    color: #fff;
+}
+
+.text-social{
+    color: aliceblue;
+    text-align: center;
+    margin-left: 75px;
+}
+
+#social-icons {
+    text-align: right;
+}
+
+#social-icons i {
+    margin-right: 1em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#social-icons i:hover {
+    color: #7a7a7a;
+}
+
+/* FOOTER DETAILS */
+#footer-details {
+    margin-bottom: 3em;
+}
+
+#news-container,
+#contact-container,
+#links-container {
+    padding: 0;
+    border: 0;
+    margin-bottom: 2em;
+}
+
+#footer-details h4 {
+    color: #fff;
+    margin-bottom: 1.5em;
+}
+
+#news-container input {
+    border-radius: 0;
+    border: none;
+}
+
+#links-container li {
+    margin-bottom: 0.5em;
+}
+
+#links-container a {
+    text-decoration: none;
+}
+
+#links-container a:hover {
+    color: #fff;
+}
+
+/* FOOTER BOTTOM */
+#footer-bottom {
+    background-color: black;
+    border-top: 1px solid #7a7a7a;
+    padding-top: 2em;
+}
+
+#footer-bottom i {
+    color: #e61e10;
+    margin-left: 0.3em;
+}
+
+@media (min-width: 768px) {
+    #news-container {
+        padding-right: 2em;
+    }
+
+    #contact-container {
+        padding: 0 2em;
+        border-left: 1px solid #7a7a7a;
+        border-right: 1px solid #7a7a7a;
+    }
+
+    #links-container {
+        padding-left: 2em;
+    }
+}
